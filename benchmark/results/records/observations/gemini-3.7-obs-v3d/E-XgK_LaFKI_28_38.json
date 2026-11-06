@@ -1,0 +1,11 @@
+{
+ "clip_id": "E-XgK_LaFKI_28_38",
+ "model": "gemini-3.7-obs-v3d",
+ "timing_s": 57.63,
+ "token_costs": {
+  "input_tokens": 3843,
+  "output_tokens": 1053
+ },
+ "error": null,
+ "observations": "[removed in the public release]"
+}

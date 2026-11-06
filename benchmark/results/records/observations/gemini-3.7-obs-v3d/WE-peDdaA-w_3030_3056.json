@@ -1,0 +1,11 @@
+{
+ "clip_id": "WE-peDdaA-w_3030_3056",
+ "model": "gemini-3.7-obs-v3d",
+ "timing_s": 107.94,
+ "token_costs": {
+  "input_tokens": 5299,
+  "output_tokens": 1310
+ },
+ "error": null,
+ "observations": "[removed in the public release]"
+}

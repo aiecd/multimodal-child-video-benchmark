@@ -1,0 +1,2 @@
+labels,model_a,model_b,n_clips,macro_f1_difference,ci_lo,ci_hi
+ten,Gemini 3.7 Flash,Muse Spark 1.2,578,0.03092557,0.001944205,0.059496583

@@ -1,0 +1,11 @@
+{
+ "clip_id": "mV65hpL_upw_0_14",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 76.01,
+ "token_costs": {
+  "input_tokens": 4266,
+  "output_tokens": 1032
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

@@ -1,0 +1,13 @@
+# AV-ASD annotations are downloaded by python -m benchmark.scripts.fetch_labels, not redistributed
+dataset/csvs/dataset.csv
+dataset/csvs/train.csv
+dataset/csvs/val.csv
+dataset/csvs/test.csv
+# Videos and clips are not redistributed
+dataset/original_videos/
+dataset/clips_video/*
+!dataset/clips_video/.probe_cache.json
+.env
+__pycache__/
+*.pyc
+.DS_Store

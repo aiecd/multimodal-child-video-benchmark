@@ -1,0 +1,20 @@
+{
+  "judge_dir": "benchmark/results/table2_report_models/judge/en",
+  "judges": [
+    "gemini-3.7-judge",
+    "muse-judge",
+    "deepseek-v4-pro-judge"
+  ],
+  "models": [
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "kimi-k3",
+    "claude-opus-5",
+    "qwen-3.8-max"
+  ],
+  "n_boot": 10000,
+  "seed": 20261027,
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5"
+}

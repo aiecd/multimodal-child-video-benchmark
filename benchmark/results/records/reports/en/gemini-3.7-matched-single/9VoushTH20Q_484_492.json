@@ -1,0 +1,11 @@
+{
+ "clip_id": "9VoushTH20Q_484_492",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 129.48,
+ "token_costs": {
+  "input_tokens": 3720,
+  "output_tokens": 978
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

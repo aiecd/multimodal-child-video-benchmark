@@ -1,0 +1,8 @@
+system,run_dir,clips,valid,failed,not_run
+original,benchmark/results/table4a_labeling_prompts/run1/benchmark_a/gemini-3.7-flash-kidooo,139,139,0,0
+original,benchmark/results/table4a_labeling_prompts/run2/benchmark_a/gemini-3.7-flash-kidooo,139,137,2,0
+original,benchmark/results/table4a_labeling_prompts/run3/benchmark_a/gemini-3.7-flash-kidooo,139,137,2,0
+revised,benchmark/results/table4a_labeling_prompts/run1/benchmark_a/gemini-3.7-flash-kidooo-v3d,139,139,0,0
+revised,benchmark/results/table4a_labeling_prompts/run2/benchmark_a/gemini-3.7-flash-kidooo-v3d,139,137,2,0
+revised,benchmark/results/table4a_labeling_prompts/run3/benchmark_a/gemini-3.7-flash-kidooo-v3d,139,139,0,0
+benchmark_prompt,benchmark/results/table1_video_models/gemini-3.7-flash,139,139,0,0

@@ -1,0 +1,11 @@
+{
+ "clip_id": "BY_RBFOvl14_79_107",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 77.93,
+ "token_costs": {
+  "input_tokens": 5540,
+  "output_tokens": 1055
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

@@ -1,0 +1,84 @@
+# Run settings. Paths are relative to the repository root.
+
+paths:
+  original_videos: dataset/original_videos
+  test_csv: dataset/csvs/dataset.csv          # AV-ASD annotations (python -m benchmark.scripts.fetch_labels)
+  val_csv: dataset/csvs/val.csv
+  results_dir: benchmark/results
+  # The 701 included clips (dataset/clips_screened_pass.txt), cut with
+  # scripts/data_preparation/fetch_clips.py and screened with scripts/analyze_clips.py
+  clips_cache_dir: dataset/clips_video/screened
+
+# Table 1 and Table 4 panel A (behavior labeling)
+benchmark_a:
+  max_clips: null
+  keep_clips: true
+  retry_attempts: 3
+  retry_delay_s: 5
+  retry_backoff: 2.0
+  retry_jitter: 0.5
+  file_poll_interval_s: 3
+  file_poll_timeout_s: 120
+  assessability_threshold: 0.85
+  max_concurrent: 5
+  rate_limit_pause_s: 15
+  graceful_shutdown_timeout_s: 30
+
+# Table 2 (report models)
+benchmark_b:
+  clips_dir: dataset/clips_video/screened
+  csv_path: dataset/csvs/dataset.csv
+  label_column: null
+  max_videos: null
+  observation_model: gemini-flash-obs
+  max_concurrent_videos: 16
+  extractor_max_concurrent: 5
+  judge_max_concurrent: 5
+  retry_attempts: 3
+  retry_delay_s: 5
+  retry_backoff: 2.0
+  retry_jitter: 0.5
+  file_poll_interval_s: 5
+  file_poll_timeout_s: 180
+  rate_limit_pause_s: 15
+  graceful_shutdown_timeout_s: 30
+
+# Table 4 panel B (report prompts, 100 development clips)
+prompt_compare_b2:
+  results_dir: benchmark/results/table4b_report_prompts
+  extractor: gemini-3.7-obs-v3d
+  arms:
+    report-original: gpt-5.6-sol
+    report-v2: gpt-5.6-sol-report-v2
+  baseline_arm: report-original
+  judges: [muse-judge, deepseek-v4-pro-judge, claude-opus-5-judge]
+  language: en
+  clips_csv: dataset/csvs/b2_dev100.csv
+
+# Table 5 (matched end-to-end comparison, evaluation subset)
+e2e_matched:
+  results_dir: benchmark/results/table5_end_to_end
+  conditions:
+    single-stage-matched: {video_report: gemini-3.7-matched-single}
+    two-stage-same-model: {extractor: gemini-3.7-obs-v3d, report: gemini-3.7-report-v2}
+    two-stage-deployed:   {extractor: gemini-3.7-obs-v3d, report: gpt-5.6-sol-report-v2}
+  judges: [muse-c-judge, deepseek-v4-pro-c-judge, claude-opus-5-c-judge]
+  mentions_model: deepseek-v4-pro-mentions
+  clips_csv: dataset/csvs/a80_test.csv
+  shuffle_seed: 20261031          # order of the anonymized reports shown to each judge
+
+# Shared by Table 4 panel B and Table 5
+compare_common:
+  clips_dir: dataset/clips_video/screened
+  compare_cache_dir: benchmark/results/records     # observation records and reports (text withheld)
+  max_clips: null
+  max_concurrent_clips: 16
+  judge_max_concurrent: 5
+  retry_attempts: 3
+  retry_delay_s: 5
+  retry_backoff: 2.0
+  retry_jitter: 0.5
+  file_poll_interval_s: 5
+  file_poll_timeout_s: 180
+  rate_limit_pause_s: 15
+  graceful_shutdown_timeout_s: 30

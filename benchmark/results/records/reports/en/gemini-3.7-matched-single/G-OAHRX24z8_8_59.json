@@ -1,0 +1,11 @@
+{
+ "clip_id": "G-OAHRX24z8_8_59",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 135.06,
+ "token_costs": {
+  "input_tokens": 7633,
+  "output_tokens": 1072
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

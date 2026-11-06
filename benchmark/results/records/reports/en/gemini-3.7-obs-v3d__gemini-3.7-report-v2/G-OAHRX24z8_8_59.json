@@ -1,0 +1,12 @@
+{
+ "clip_id": "G-OAHRX24z8_8_59",
+ "model": "gemini-3.7-report-v2",
+ "extractor": "gemini-3.7-obs-v3d",
+ "timing_s": 27.28,
+ "token_costs": {
+  "input_tokens": 2171,
+  "output_tokens": 1053
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

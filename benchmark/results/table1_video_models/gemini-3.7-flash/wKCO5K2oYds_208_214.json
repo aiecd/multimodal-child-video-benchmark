@@ -1,0 +1,26 @@
+{
+ "clip_id": "wKCO5K2oYds_208_214",
+ "model": "gemini-3.7-flash",
+ "display_name": "Gemini 3.7 Flash",
+ "prompt_style": "baseline",
+ "timing_s": 8.54,
+ "token_costs": {
+  "input_tokens": 846,
+  "output_tokens": 118
+ },
+ "attempt_count": 1,
+ "rate_limited": false,
+ "error": null,
+ "asd_behavioral_metrics": {
+  "Absence or Avoidance of Eye Contact": false,
+  "Aggressive Behavior": true,
+  "Hyper- or Hyporeactivity to Sensory Input": false,
+  "Non-Responsiveness to Verbal Interaction": true,
+  "Non-Typical Language": false,
+  "Object Lining-Up": false,
+  "Self-Hitting or Self-Injurious Behavior": false,
+  "Self-Spinning or Spinning Objects": false,
+  "Upper Limb Stereotypies": false,
+  "Background": false
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "clip_id": "assj01YCKFI_14_17",
+ "model": "gemini-3.7-obs-v3d",
+ "timing_s": 82.31,
+ "token_costs": {
+  "input_tokens": 3206,
+  "output_tokens": 841
+ },
+ "error": null,
+ "observations": "[removed in the public release]"
+}

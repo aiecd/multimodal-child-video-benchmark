@@ -1,0 +1,10 @@
+label,definition_type,false_positive_rate,ci_lo,ci_hi
+Absence or Avoidance of Eye Contact,Absence-defined,0.073593074,0.048457936,0.101149425
+Aggressive Behavior,Presence-defined,0.0,0.0,0.0
+Hyper- or Hyporeactivity to Sensory Input,Presence-defined,0.004149378,0.0,0.010246428
+Non-Responsiveness to Verbal Interaction,Absence-defined,0.044715447,0.024896266,0.068101146
+Non-Typical Language,Presence-defined,0.033596838,0.018552017,0.050220135
+Object Lining-Up,Presence-defined,0.001834862,0.0,0.00591716
+Self-Hitting or Self-Injurious Behavior,Presence-defined,0.022988506,0.010100501,0.037313799
+Self-Spinning or Spinning Objects,Presence-defined,0.009708738,0.002024291,0.018657103
+Upper Limb Stereotypies,Presence-defined,0.038834951,0.018468745,0.062972292

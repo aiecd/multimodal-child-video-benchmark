@@ -1,0 +1,5 @@
+{
+ "clip_id": "7ak5wT-DU3U_15_18",
+ "model": "pegasus-1.5",
+ "error": "RuntimeError: 400 from TwelveLabs /analyze: {\"code\":\"video_duration_too_short\",\"message\":\"The video is too short. Please"
+}

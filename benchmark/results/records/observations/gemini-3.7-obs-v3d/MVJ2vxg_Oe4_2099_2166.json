@@ -1,0 +1,11 @@
+{
+ "clip_id": "MVJ2vxg_Oe4_2099_2166",
+ "model": "gemini-3.7-obs-v3d",
+ "timing_s": 83.63,
+ "token_costs": {
+  "input_tokens": 9030,
+  "output_tokens": 2044
+ },
+ "error": null,
+ "observations": "[removed in the public release]"
+}

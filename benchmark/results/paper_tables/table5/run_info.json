@@ -1,0 +1,18 @@
+{
+  "results_dir": "benchmark/results/table5_end_to_end",
+  "conditions": [
+    "single-stage-matched",
+    "two-stage-same-model",
+    "two-stage-deployed"
+  ],
+  "judges": [
+    "muse-c-judge",
+    "deepseek-v4-pro-c-judge",
+    "claude-opus-5-c-judge"
+  ],
+  "n_boot": 10000,
+  "seed": 20261027,
+  "python": "3.12.4",
+  "numpy": "2.4.4",
+  "pandas": "3.1.1"
+}

@@ -1,0 +1,10 @@
+step,clips,source_videos
+Published AV-ASD corpus,928,569
+Clips unavailable,105,
+Retrievable clips,823,495
+Clips excluded on technical criteria,122,97
+Source videos with both included and excluded clips,,26
+Included corpus,701,424
+"Stage 1 benchmark, common valid outputs",578,374
+Development subset,562,352
+Evaluation subset,139,72

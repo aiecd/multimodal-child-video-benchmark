@@ -1,0 +1,11 @@
+{
+ "clip_id": "WE-peDdaA-w_3030_3056",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 82.33,
+ "token_costs": {
+  "input_tokens": 5358,
+  "output_tokens": 1048
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

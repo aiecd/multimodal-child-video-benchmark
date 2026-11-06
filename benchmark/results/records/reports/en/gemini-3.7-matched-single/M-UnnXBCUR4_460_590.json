@@ -1,0 +1,11 @@
+{
+ "clip_id": "M-UnnXBCUR4_460_590",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 111.81,
+ "token_costs": {
+  "input_tokens": 14822,
+  "output_tokens": 1031
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

@@ -1,0 +1,11 @@
+{
+ "clip_id": "BY_RBFOvl14_79_107",
+ "model": "gemini-3.7-obs-v3d",
+ "timing_s": 50.41,
+ "token_costs": {
+  "input_tokens": 5481,
+  "output_tokens": 1426
+ },
+ "error": null,
+ "observations": "[removed in the public release]"
+}

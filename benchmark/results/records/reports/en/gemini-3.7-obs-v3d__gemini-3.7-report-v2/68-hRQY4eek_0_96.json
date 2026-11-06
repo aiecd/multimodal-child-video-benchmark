@@ -1,0 +1,12 @@
+{
+ "clip_id": "68-hRQY4eek_0_96",
+ "model": "gemini-3.7-report-v2",
+ "extractor": "gemini-3.7-obs-v3d",
+ "timing_s": 14.17,
+ "token_costs": {
+  "input_tokens": 2435,
+  "output_tokens": 1157
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

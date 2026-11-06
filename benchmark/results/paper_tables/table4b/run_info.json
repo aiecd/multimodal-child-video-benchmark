@@ -1,0 +1,18 @@
+{
+  "judge_dir": "benchmark/results/table4b_report_prompts/judge",
+  "arms": [
+    "report-original",
+    "report-v2"
+  ],
+  "judges": [
+    "muse-judge",
+    "deepseek-v4-pro-judge",
+    "claude-opus-5-judge"
+  ],
+  "clips_with_judge_files": 98,
+  "n_boot": 10000,
+  "seed": 20261027,
+  "python": "3.12.4",
+  "numpy": "2.4.4",
+  "pandas": "3.1.1"
+}

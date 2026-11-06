@@ -1,0 +1,26 @@
+{
+ "clip_id": "YS-ThGQlEX8_162_172",
+ "model": "pegasus-1.5",
+ "display_name": "TwelveLabs Pegasus 1.5",
+ "prompt_style": "baseline",
+ "timing_s": 9.83,
+ "token_costs": {
+  "input_tokens": 2680,
+  "output_tokens": 129
+ },
+ "attempt_count": 1,
+ "rate_limited": false,
+ "error": null,
+ "asd_behavioral_metrics": {
+  "Absence or Avoidance of Eye Contact": false,
+  "Aggressive Behavior": false,
+  "Hyper- or Hyporeactivity to Sensory Input": false,
+  "Non-Responsiveness to Verbal Interaction": false,
+  "Non-Typical Language": false,
+  "Object Lining-Up": false,
+  "Self-Hitting or Self-Injurious Behavior": false,
+  "Self-Spinning or Spinning Objects": false,
+  "Upper Limb Stereotypies": false,
+  "Background": true
+ }
+}

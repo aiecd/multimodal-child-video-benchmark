@@ -1,0 +1,3 @@
+# Regenerate the tables (bash reproduce.sh)
+numpy>=2.4
+pandas>=2.2

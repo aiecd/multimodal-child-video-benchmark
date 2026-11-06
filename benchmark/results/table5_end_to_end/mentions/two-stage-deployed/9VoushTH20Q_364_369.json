@@ -1,0 +1,40 @@
+{
+ "clip_id": "9VoushTH20Q_364_369",
+ "model": "deepseek-v4-pro-mentions",
+ "condition": "two-stage-deployed",
+ "timing_s": 59.39,
+ "token_costs": {
+  "input_tokens": 1620,
+  "output_tokens": 4722
+ },
+ "error": null,
+ "mentions": {
+  "Absence or Avoidance of Eye Contact": {
+   "mentioned": true
+  },
+  "Aggressive Behavior": {
+   "mentioned": false
+  },
+  "Hyper- or Hyporeactivity to Sensory Input": {
+   "mentioned": false
+  },
+  "Non-Responsiveness to Verbal Interaction": {
+   "mentioned": true
+  },
+  "Non-Typical Language": {
+   "mentioned": false
+  },
+  "Object Lining-Up": {
+   "mentioned": false
+  },
+  "Self-Hitting or Self-Injurious Behavior": {
+   "mentioned": false
+  },
+  "Self-Spinning or Spinning Objects": {
+   "mentioned": false
+  },
+  "Upper Limb Stereotypies": {
+   "mentioned": false
+  }
+ }
+}

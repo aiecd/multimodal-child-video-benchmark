@@ -1,0 +1,5 @@
+{
+ "clip_id": "Yh65lGrD5Qw_52_55",
+ "model": "gemini-3.7-flash-kidooo",
+ "error": "RuntimeError: Gemini returned no output text; candidate finish_reason(s): ['PROHIBITED_CONTENT']"
+}
