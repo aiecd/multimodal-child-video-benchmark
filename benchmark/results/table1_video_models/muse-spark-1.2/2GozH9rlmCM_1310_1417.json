@@ -1,0 +1,5 @@
+{
+ "clip_id": "2GozH9rlmCM_1310_1417",
+ "model": "muse-spark-1.2",
+ "error": "BadRequestError: Error code: 400 - {'error': {'code': 'file_above_max_size', 'message': 'media at input[0].content[1] ex"
+}

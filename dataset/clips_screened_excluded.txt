@@ -1,0 +1,123 @@
+clip_id	failed_criteria
+-9aliPAniig_4_8	Frame rate
+-9aliPAniig_631_637	Frame rate
+-9aliPAniig_638_640	Frame count,Frame rate
+-9aliPAniig_66_71	Frame rate
+-9aliPAniig_82_88	Frame rate
+-jsCjRbOH9A_79_119	Frame rate
+02mvgUiO-eU_16_22	Bitrate
+0g51c2BCqu8_0_166	Duration,Frame count
+0xjEvdxrVe0_9_11	Duration
+10rl81tQcLU_1060_1152	Frame count
+1137764799695838_3_10	Bitrate
+1PAXSwE85tk_214_227	Frame rate
+1PAXSwE85tk_898_914	Bitrate,Frame rate
+2AS14wxMB-A_6_18	Bitrate,Frame rate
+2TpC6CB0iXw_39_43	Frame rate
+2_jqBPrc6hk_279_422	Duration,Frame count
+3Colcv5Xlc0_31_33	Duration
+3Colcv5Xlc0_37_39	Duration
+4CN48bpOxgk_789_880	Frame count
+5MS6VZwZDi0_2_59	Bitrate,Frame rate
+5Ps9iE8mPqY_18_22	Frame rate
+5QRhrgYGPF4_0_45	Bitrate
+6bPSthjAU4c_0_24	Bitrate
+73IXvnvJT_w_39_176	Duration,Frame count
+7lgAK1z-Scs_0_26	Frame rate
+81BdRQm-rhw_25_30	Bitrate
+8vFUIFEfRpA_2_14	Frame rate
+9V7XTA6ysgI_0_35	Bitrate
+BpP916oG4BU_0_90	Frame rate
+CZTCdYsSh_A_209_441	Duration,Frame count
+D0x6P-UhGgs_0_160	Duration
+DKavAdp8OKI_53_55	Duration,Frame count
+E0KN_mXz_kI_18_20	Duration,Frame count
+EAuqFS3FrJA_0_150	Duration,Frame rate
+F5H17FHYa-k_48_49	Duration,Frame count
+Fg5QtY6kJ74_240_251	Bitrate
+HyYhU4B_9E8_1070_1213	Duration
+J2VaHN3aI0s_48_49	Duration,Frame count
+JAgwlARu1Zk_0_887	Duration,Frame count
+JAgwlARu1Zk_889_1753	Duration,Frame count
+JJApKZgfSb8_0_12	Bitrate
+JynBZy8nMKw_0_57	Bitrate
+KZKL95b-uqk_113_115	Duration
+KvcJpD3hhUU_53_57	Bitrate
+MOt-6FAEP_g_94_98	Bitrate
+MXDcg-KOG4I_40_180	Duration
+NDcUGYlTy_4_6_12	Frame rate
+NQ3y6XTyAc4_13_15	Duration
+NlLcAr8aWnI_379_590	Duration,Frame count
+PH7b3oOnkso_690_839	Duration,Frame count
+POrnBd_isf8_69_183	Frame count
+Qieaww93zlo_35_44	Bitrate
+Qieaww93zlo_5_11	Bitrate
+Qieaww93zlo_62_72	Bitrate
+RM77rVRvdsQ_0_10	Bitrate,Frame rate
+RlmKPzAGrjQ_9_17	Bitrate
+TMaCC-pdpmE_0_1	Duration,Frame count
+TVMWW9SejgI_1_10	Frame rate
+UQyHkp8-B6E_2720_2836	Frame count
+UxpQpWzhOx0_2_6	Frame rate
+V-c50HNnPg0_13_14	Duration,Frame count
+VAMZwnfAHyY_3_10	Frame rate
+VWmNcRO9tgk_124_126	Duration,Frame count
+VWmNcRO9tgk_277_278	Duration,Frame count
+VWmNcRO9tgk_5_7	Duration,Frame count
+VxK45NHvHTg_25_28	Bitrate
+WE6kGtuamTo_610_693	Frame count
+WF5MokJC8eg_324_326	Duration,Frame count
+WhrQ1HHy7S8_899_974	Frame count
+Xi0UQ2FrtyA_0_182	Duration,Frame count
+Yh65lGrD5Qw_68_70	Duration,Frame count
+YtvP5A5OHpU_330_340	Bitrate
+YtvP5A5OHpU_340_350	Bitrate
+YtvP5A5OHpU_350_360	Bitrate
+YtvP5A5OHpU_420_430	Bitrate
+YtvP5A5OHpU_440_450	Bitrate
+YtvP5A5OHpU_465_475	Bitrate
+Z2kfvB4lv7A_20_25	Frame rate
+Z9tovOUMFMs_0_145	Duration,Frame count
+ZRsyNJ0d4xw_39_52	Bitrate
+Zin3m0wXkXw_0_43	Bitrate
+aLuqZIzEz-Q_0_7	Frame rate
+adIKRHRthGE_18_22	Bitrate
+arn5UCMLlBo_2_15	Bitrate,Frame rate
+bTfelkLRv9s_0_10	Frame rate
+bTfelkLRv9s_17_93	Frame rate
+bTfelkLRv9s_96_99	Frame count,Frame rate
+bbBtC7vAyow_174_200	Frame rate
+bbBtC7vAyow_35_43	Frame rate
+c8CzjRhSiug_19_46	Bitrate
+dFtbwdTZhec_9_116	Frame count
+dZXVJk5tCZg_26_27	Duration,Frame count
+eFkXlzhAOQc_247_248	Duration,Frame count
+g-bnBByq9Zc_6_7	Duration,Frame count
+gs_VsQ4-n4U_210_361	Duration
+gsrr8uaVARw_0_6	Frame rate
+hIWUbXvvhO0_0_26	Bitrate
+iDuAugAykcc_68_85	Frame rate
+jg_NhlcM2mc_1933_2200	Duration,Frame count
+kFuxwAufWvQ_2_20	Frame rate
+lMeaeCHOkLk_0_256	Duration,Bitrate,Frame count
+mEXh9sDVzGo_18_20	Frame count
+mPvmDvReyR8_0_334	Duration,Frame count
+mkin5up15XM_57_63	Duration,Bitrate,Frame count,Frame rate
+nwLp0k1xa0o_55_64	Bitrate,Frame rate
+pz1nIbRWb2M_3_7	Frame rate
+q3SsScFt-nE_0_5	Bitrate
+qp4S5PiZUYA_21_155	Duration
+qpD2tWn7RlI_0_135	Duration
+vZCLfxiQ1YE_0_40	Bitrate
+vygEmelB8jM_0_8	Bitrate,Frame rate
+vygEmelB8jM_11_21	Frame rate
+vygEmelB8jM_27_45	Frame rate
+vygEmelB8jM_52_76	Bitrate,Frame rate
+vygEmelB8jM_82_89	Frame rate
+vygEmelB8jM_95_120	Bitrate,Frame rate
+wKCO5K2oYds_33_35	Frame count
+wKCO5K2oYds_63_65	Frame count
+y_faqd_9atU_0_474	Duration,Frame count
+yiEo7Kg1ngY_1_25	Bitrate,Frame rate
+yrWCvbquAk8_19_20	Duration,Frame count
+z7NeBs5wNOA_93_107	Bitrate

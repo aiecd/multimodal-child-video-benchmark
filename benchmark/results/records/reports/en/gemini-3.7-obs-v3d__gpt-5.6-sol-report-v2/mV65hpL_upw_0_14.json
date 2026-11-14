@@ -1,0 +1,12 @@
+{
+ "clip_id": "mV65hpL_upw_0_14",
+ "model": "gpt-5.6-sol-report-v2",
+ "extractor": "gemini-3.7-obs-v3d",
+ "timing_s": 34.88,
+ "token_costs": {
+  "input_tokens": 1671,
+  "output_tokens": 1803
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

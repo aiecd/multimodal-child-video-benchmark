@@ -1,0 +1,8 @@
+reference,outcome,n_clips,n_source_videos,runs,value,ci_lo,ci_hi
+benchmark_prompt,"Macro-F1, nine behavior labels",134,72,1,0.679639385,0.540451793,0.74456725
+benchmark_prompt,Macro-precision,134,72,1,0.885291005,0.721027014,0.95105072
+benchmark_prompt,Macro-recall,134,72,1,0.58312753,0.450487094,0.671454779
+benchmark_prompt,Accuracy,134,72,1,0.926202322,0.904040404,0.946502831
+benchmark_prompt,False-positive rate: absence or avoidance of eye contact,134,72,1,0.035714286,0.007872478,0.074382363
+benchmark_prompt,False-positive rate: non-responsiveness to verbal interaction,134,72,1,0.016949153,0.0,0.044449405
+benchmark_prompt,"Macro-F1, all 10 labels (sensitivity)",134,72,1,0.675675446,0.547211603,0.739862682

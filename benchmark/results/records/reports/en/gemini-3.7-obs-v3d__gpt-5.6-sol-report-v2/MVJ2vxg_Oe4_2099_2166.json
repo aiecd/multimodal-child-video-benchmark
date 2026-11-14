@@ -1,0 +1,12 @@
+{
+ "clip_id": "MVJ2vxg_Oe4_2099_2166",
+ "model": "gpt-5.6-sol-report-v2",
+ "extractor": "gemini-3.7-obs-v3d",
+ "timing_s": 17.52,
+ "token_costs": {
+  "input_tokens": 2663,
+  "output_tokens": 1529
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

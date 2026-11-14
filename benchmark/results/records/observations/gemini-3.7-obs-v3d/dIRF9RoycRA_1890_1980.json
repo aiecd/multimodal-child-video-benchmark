@@ -1,0 +1,11 @@
+{
+ "clip_id": "dIRF9RoycRA_1890_1980",
+ "model": "gemini-3.7-obs-v3d",
+ "timing_s": 92.52,
+ "token_costs": {
+  "input_tokens": 11123,
+  "output_tokens": 1825
+ },
+ "error": null,
+ "observations": "[removed in the public release]"
+}

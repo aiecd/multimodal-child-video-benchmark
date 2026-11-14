@@ -1,0 +1,11 @@
+{
+ "clip_id": "bJBOhsNG_k8_24_31",
+ "model": "gemini-3.7-obs-v3d",
+ "timing_s": 129.7,
+ "token_costs": {
+  "input_tokens": 3549,
+  "output_tokens": 744
+ },
+ "error": null,
+ "observations": "[removed in the public release]"
+}

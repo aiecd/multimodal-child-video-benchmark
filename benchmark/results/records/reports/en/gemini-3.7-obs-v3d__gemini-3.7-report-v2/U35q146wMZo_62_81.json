@@ -1,0 +1,12 @@
+{
+ "clip_id": "U35q146wMZo_62_81",
+ "model": "gemini-3.7-report-v2",
+ "extractor": "gemini-3.7-obs-v3d",
+ "timing_s": 26.4,
+ "token_costs": {
+  "input_tokens": 2138,
+  "output_tokens": 1082
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

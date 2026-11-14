@@ -1,0 +1,11 @@
+{
+ "clip_id": "dIRF9RoycRA_1890_1980",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 108.04,
+ "token_costs": {
+  "input_tokens": 11182,
+  "output_tokens": 1141
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

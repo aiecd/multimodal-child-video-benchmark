@@ -1,0 +1,5 @@
+{
+ "clip_id": "Prw-a7xJdh8_187_197",
+ "model": "qwen-3.8-max",
+ "error": "BadRequestError: Error code: 400 - {'error': {'message': '<400> InternalError.Algo.DataInspectionFailed: Input video dat"
+}

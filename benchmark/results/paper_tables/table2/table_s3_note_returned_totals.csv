@@ -1,0 +1,4 @@
+analysis,n_clips,n_source_videos,rank_order,GPT-5.6 Sol,GPT-5.6 Terra,Kimi K3,Claude Opus 5,Qwen 3.8 Max
+"Primary cohort, item sums",455,255,Sol > Terra > Kimi > Claude > Qwen,0.895480551,0.864433107,0.821405896,0.82047619,0.761440781
+"Primary cohort, returned totals",455,255,Sol > Terra > Kimi > Claude > Qwen,0.892602477,0.861078842,0.818471132,0.817414966,0.756992848
+"Returned-total cohort, returned totals",525,279,Sol > Terra > Kimi > Claude > Qwen,0.895876039,0.864750567,0.822947846,0.818256992,0.758316704

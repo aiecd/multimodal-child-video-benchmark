@@ -1,0 +1,10 @@
+{
+  "stage1_dir": "benchmark/results/table1_video_models",
+  "dev_csv": "dataset/csvs/a80_dev.csv",
+  "eval_csv": "dataset/csvs/a80_test.csv",
+  "n_boot": 10000,
+  "seed": 20261027,
+  "python": "3.12.4",
+  "numpy": "2.4.4",
+  "pandas": "3.1.1"
+}

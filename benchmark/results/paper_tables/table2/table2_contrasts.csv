@@ -1,0 +1,4 @@
+contrast,statistic,estimate,ci_lo,ci_hi
+GPT-5.6 Sol minus GPT-5.6 Terra,composite difference,0.031047445,0.024400209,0.037543916
+Kimi K3 minus Claude Opus 5,composite difference,0.000929705,-0.006238026,0.007827984
+GPT-5.6 Sol above GPT-5.6 Terra,percent of clips (ties are not wins),61.538461538,57.090801718,65.957446809

@@ -1,0 +1,5 @@
+{
+ "clip_id": "sI7ztv9zV-E_67_70",
+ "model": "pegasus-1.5",
+ "error": "RuntimeError: 400 from TwelveLabs /analyze: {\"code\":\"video_resolution_too_low\",\"message\":\"The resolution of the video is"
+}

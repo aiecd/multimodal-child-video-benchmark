@@ -1,0 +1,11 @@
+{
+ "clip_id": "E-XgK_LaFKI_48_58",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 122.04,
+ "token_costs": {
+  "input_tokens": 3902,
+  "output_tokens": 1002
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

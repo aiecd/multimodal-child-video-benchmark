@@ -1,0 +1,10 @@
+candidate,baseline,label,n_clips,positives,baseline_f1,candidate_f1,paired_difference,diff_ci_lo,diff_ci_hi
+revised,original,Absence or Avoidance of Eye Contact,134,22,0.420630798,0.657678912,0.237048115,0.077368984,0.408256453
+revised,original,Aggressive Behavior,134,17,0.8136289,0.866666667,0.053037767,0.0,0.162725655
+revised,original,Hyper- or Hyporeactivity to Sensory Input,134,20,0.345345345,0.346379278,0.001033932,-0.088623513,0.146278022
+revised,original,Non-Responsiveness to Verbal Interaction,134,16,0.636236029,0.761290323,0.125054293,-0.029780504,0.272207368
+revised,original,Non-Typical Language,134,18,0.424957265,0.716035354,0.291078089,0.048305153,0.498204775
+revised,original,Object Lining-Up,134,9,1.0,1.0,0.0,0.0,0.0
+revised,original,Self-Hitting or Self-Injurious Behavior,134,13,0.481481481,0.577915377,0.096433895,0.0,0.182355521
+revised,original,Self-Spinning or Spinning Objects,134,17,0.741904762,0.884593838,0.142689076,-0.030540751,0.333335752
+revised,original,Upper Limb Stereotypies,134,39,0.59788958,0.552575564,-0.045314016,-0.161383413,0.070556245

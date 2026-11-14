@@ -1,0 +1,12 @@
+{
+ "clip_id": "M-UnnXBCUR4_460_590",
+ "model": "gemini-3.7-report-v2",
+ "extractor": "gemini-3.7-obs-v3d",
+ "timing_s": 37.43,
+ "token_costs": {
+  "input_tokens": 3782,
+  "output_tokens": 1035
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

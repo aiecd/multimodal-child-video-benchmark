@@ -1,0 +1,11 @@
+{
+ "clip_id": "JwaWugM2GIg_27_31",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 123.33,
+ "token_costs": {
+  "input_tokens": 3356,
+  "output_tokens": 976
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

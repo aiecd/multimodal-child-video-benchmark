@@ -1,0 +1,27 @@
+{
+  "clips": "dataset/csvs/a80_test.csv",
+  "systems": {
+    "original": [
+      "benchmark/results/table4a_labeling_prompts/run1/benchmark_a/gemini-3.7-flash-kidooo",
+      "benchmark/results/table4a_labeling_prompts/run2/benchmark_a/gemini-3.7-flash-kidooo",
+      "benchmark/results/table4a_labeling_prompts/run3/benchmark_a/gemini-3.7-flash-kidooo"
+    ],
+    "revised": [
+      "benchmark/results/table4a_labeling_prompts/run1/benchmark_a/gemini-3.7-flash-kidooo-v3d",
+      "benchmark/results/table4a_labeling_prompts/run2/benchmark_a/gemini-3.7-flash-kidooo-v3d",
+      "benchmark/results/table4a_labeling_prompts/run3/benchmark_a/gemini-3.7-flash-kidooo-v3d"
+    ],
+    "benchmark_prompt": [
+      "benchmark/results/table1_video_models/gemini-3.7-flash"
+    ]
+  },
+  "primary": "revised:original",
+  "references": [
+    "benchmark_prompt"
+  ],
+  "n_boot": 10000,
+  "seed": 20261027,
+  "python": "3.12.4",
+  "numpy": "2.4.4",
+  "pandas": "3.1.1"
+}

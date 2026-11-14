@@ -1,0 +1,26 @@
+{
+ "clip_id": "j7AQDL40kcM_340_350",
+ "model": "kimi-k3",
+ "display_name": "Kimi K3",
+ "prompt_style": "baseline",
+ "timing_s": 41.33,
+ "token_costs": {
+  "input_tokens": 6507,
+  "output_tokens": 1105
+ },
+ "attempt_count": 1,
+ "rate_limited": false,
+ "error": null,
+ "asd_behavioral_metrics": {
+  "Absence or Avoidance of Eye Contact": false,
+  "Aggressive Behavior": false,
+  "Hyper- or Hyporeactivity to Sensory Input": false,
+  "Non-Responsiveness to Verbal Interaction": false,
+  "Non-Typical Language": false,
+  "Object Lining-Up": false,
+  "Self-Hitting or Self-Injurious Behavior": false,
+  "Self-Spinning or Spinning Objects": false,
+  "Upper Limb Stereotypies": false,
+  "Background": true
+ }
+}

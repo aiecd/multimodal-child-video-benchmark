@@ -1,0 +1,5 @@
+{
+ "clip_id": "IFJmEqQ0LKA_236_246",
+ "model": "gemini-3.7-flash",
+ "error": "AttributeError: 'NoneType' object has no attribute 'strip'"
+}

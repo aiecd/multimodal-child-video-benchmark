@@ -1,0 +1,26 @@
+{
+ "clip_id": "j4PTf7LgsIE_6_31",
+ "model": "gemini-3.7-flash-kidooo",
+ "display_name": "Gemini 3.7 Flash (A Kidooo prompt)",
+ "prompt_style": "kidooo",
+ "timing_s": 15.85,
+ "token_costs": {
+  "input_tokens": 2904,
+  "output_tokens": 461
+ },
+ "attempt_count": 1,
+ "rate_limited": false,
+ "error": null,
+ "asd_behavioral_metrics": {
+  "Absence or Avoidance of Eye Contact": true,
+  "Aggressive Behavior": true,
+  "Hyper- or Hyporeactivity to Sensory Input": false,
+  "Non-Responsiveness to Verbal Interaction": true,
+  "Non-Typical Language": true,
+  "Object Lining-Up": false,
+  "Self-Hitting or Self-Injurious Behavior": true,
+  "Self-Spinning or Spinning Objects": false,
+  "Upper Limb Stereotypies": true,
+  "Background": false
+ }
+}

@@ -1,0 +1,8 @@
+property,percentile_cut,retained_range,clips_outside_range,sole_reason
+Duration,Bottom 2.5% and top 2.5%,2 to 132 s,42,11
+Bitrate,Bottom 5%,"328 to 10,120 kbps",42,30
+Frame count,Bottom 2.5% and top 2.5%,"60 to 3,900 frames",42,10
+Frame rate,Bottom 5%,23.98 to 60.00 fps,42,28
+Excluded on more than one criterion,,,43,
+Excluded on any criterion,,,122 (14.8%),
+Retained,,,701 (85.2%),

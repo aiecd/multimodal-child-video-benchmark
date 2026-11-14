@@ -1,0 +1,296 @@
+# Models and inference settings used in the study (Supplementary Table S1).
+# API keys are read from the environment variable named in api_key_env.
+#
+# Qwen 3.8 Max and Pegasus 1.5 read each clip from a URL. Set s3_bucket (and
+# cloudfront_domain, if used) to storage you control; keep it private.
+
+models:
+
+  # --- Table 1: Stage 1 video models (benchmark_a_baseline.py) ---
+
+  gemini-3.7-flash:
+    class: benchmark.models.gemini.GeminiModel
+    display_name: "Gemini 3.7 Flash"
+    prompt_style: baseline
+    input_type: native_video
+    api_key_env: GOOGLE_API_KEY
+    model_id: gemini-3.7-flash
+    video_capable: true
+    max_concurrent: 5
+    temperature: 0.3
+
+  muse-spark-1.2:
+    class: benchmark.models.muse.MuseSparkModel
+    display_name: "Muse Spark 1.2"
+    prompt_style: baseline
+    input_type: native_video
+    api_key_env: META_API_KEY
+    model_id: muse-spark-1.2
+    base_url: "https://api.meta.ai/v1"
+    video_capable: true
+    max_concurrent: 5
+    temperature: 0.3
+    use_json_format: true
+
+  qwen-3.8-max:
+    class: benchmark.models.qwen.QwenModel
+    display_name: "Qwen 3.8 Max"
+    prompt_style: baseline
+    input_type: native_video
+    api_key_env: ALICLOUD_US_API_KEY
+    model_id: qwen3.8-max
+    base_url: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+    video_capable: true
+    max_concurrent: 5
+    s3_bucket: ""
+    s3_region: "us-east-1"
+    s3_key_prefix: "benchmark-clips/"
+    cloudfront_domain: ""
+    # Table 2 report model (temperature applies to the report call only)
+    role: report
+    report_class: benchmark.models.openai_report.OpenAIReportModel
+    temperature: 0.3
+    use_json_format: true
+
+  pegasus-1.5:
+    class: benchmark.models.pegasus.PegasusModel
+    display_name: "TwelveLabs Pegasus 1.5"
+    prompt_style: baseline
+    input_type: native_video
+    api_key_env: TWELVELABS_API_KEY
+    model_id: pegasus1.5
+    base_url: "https://api.twelvelabs.io/v1.3"
+    video_capable: true
+    max_concurrent: 3
+    temperature: 0.3
+    max_tokens: 512
+    request_timeout_s: 300
+    s3_bucket: ""
+    s3_region: "us-east-1"
+    s3_key_prefix: "benchmark-clips/"
+    cloudfront_domain: ""
+
+  kimi-k3:
+    class: benchmark.models.kimi.KimiModel
+    display_name: "Kimi K3"
+    prompt_style: baseline
+    input_type: native_video
+    api_key_env: MOONSHOT_API_KEY
+    model_id: kimi-k3
+    base_url: "https://api.moonshot.ai/v1"
+    video_capable: true
+    max_concurrent: 10
+    # Table 2 report model (max_tokens applies to the report call only)
+    role: report
+    report_class: benchmark.models.openai_report.OpenAIReportModel
+    skip_temperature: true
+    use_json_format: true
+    max_tokens: 8192
+
+  # --- Table 2: observation extractor, report models and judges ---
+
+  gemini-flash-obs:
+    class: benchmark.models.gemini_observation.GeminiObservationExtractor
+    display_name: "Gemini 3 Flash (observation extractor)"
+    api_key_env: GOOGLE_API_KEY
+    model_id: gemini-3-flash-preview
+    role: extractor
+    temperature: 0.0
+    max_concurrent: 5
+    poll_interval_s: 5
+    poll_timeout_s: 180
+
+  gpt-5.6-sol:
+    class: benchmark.models.openai_report.OpenAIReportModel
+    display_name: "GPT-5.6 Sol"
+    api_key_env: OPENAI_API_KEY
+    model_id: gpt-5.6-sol
+    role: report
+    use_max_completion_tokens: true
+    skip_temperature: true
+    use_json_format: true
+    max_tokens: 8192
+    max_concurrent: 5
+
+  gpt-5.6-terra:
+    class: benchmark.models.openai_report.OpenAIReportModel
+    display_name: "GPT-5.6 Terra"
+    api_key_env: OPENAI_API_KEY
+    model_id: gpt-5.6-terra
+    role: report
+    use_max_completion_tokens: true
+    skip_temperature: true
+    use_json_format: true
+    max_tokens: 8192
+    max_concurrent: 5
+
+  claude-opus-5:
+    class: benchmark.models.claude_report.ClaudeReportModel
+    display_name: "Claude Opus 5"
+    api_key_env: ANTHROPIC_API_KEY
+    model_id: claude-opus-5
+    role: report
+    max_tokens: 8192
+    max_concurrent: 5
+
+  gemini-3.7-judge:
+    class: benchmark.models.gemini_report.GeminiJudge
+    display_name: "Gemini 3.7 Flash (judge)"
+    api_key_env: GOOGLE_API_KEY
+    model_id: gemini-3.7-flash
+    role: judge
+    temperature: 0.3
+    max_tokens: 104525
+    max_concurrent: 5
+
+  muse-judge:
+    class: benchmark.models.openai_report.OpenAIJudge
+    display_name: "Muse Spark 1.2 (judge)"
+    api_key_env: META_API_KEY
+    model_id: muse-spark-1.2
+    base_url: "https://api.meta.ai/v1"
+    role: judge
+    temperature: 0.3
+    use_json_format: true
+    max_tokens: 32768
+    max_concurrent: 5
+
+  deepseek-v4-pro-judge:
+    class: benchmark.models.openai_report.OpenAIJudge
+    display_name: "DeepSeek V4 Pro (judge)"
+    api_key_env: DEEPSEEK_API_KEY
+    model_id: deepseek-v4-pro
+    base_url: "https://api.deepseek.com"
+    role: judge
+    temperature: 0.3
+    use_json_format: true
+    max_tokens: 32768
+    max_concurrent: 16
+
+  # --- Table 4 panel A: labeling prompts (Gemini 3.7 Flash) ---
+
+  gemini-3.7-flash-kidooo:
+    class: benchmark.models.gemini.GeminiModel
+    display_name: "Gemini 3.7 Flash (original labeling prompt)"
+    prompt_style: kidooo
+    prompt_module: benchmark_a_kidooo
+    input_type: native_video
+    api_key_env: GOOGLE_API_KEY
+    model_id: gemini-3.7-flash
+    role: labeling_prompt
+    max_concurrent: 5
+    temperature: 0.3
+
+  gemini-3.7-flash-kidooo-v3d:
+    class: benchmark.models.gemini.GeminiModel
+    display_name: "Gemini 3.7 Flash (revised labeling prompt)"
+    prompt_style: kidooo
+    prompt_module: benchmark_a_kidooo_v3d
+    input_type: native_video
+    api_key_env: GOOGLE_API_KEY
+    model_id: gemini-3.7-flash
+    role: labeling_prompt
+    max_concurrent: 5
+    temperature: 0.3
+
+  # --- Table 4 panel B and Table 5 ---
+
+  gemini-3.7-obs-v3d:
+    class: benchmark.models.gemini_observation.GeminiObservationExtractor
+    display_name: "Gemini 3.7 Flash (revised observation prompt)"
+    api_key_env: GOOGLE_API_KEY
+    model_id: gemini-3.7-flash
+    prompt_module: benchmark_b_observation_v3d
+    role: comparison_extractor
+    temperature: 0.0
+    max_concurrent: 5
+
+  gpt-5.6-sol-report-v2:
+    class: benchmark.models.openai_report.OpenAIReportModel
+    display_name: "GPT-5.6 Sol (revised report prompt)"
+    api_key_env: OPENAI_API_KEY
+    model_id: gpt-5.6-sol
+    role: comparison_report
+    report_prompt_module: benchmark_b_report_v2
+    use_max_completion_tokens: true
+    skip_temperature: true
+    use_json_format: true
+    max_tokens: 8192
+    max_concurrent: 5
+
+  claude-opus-5-judge:
+    class: benchmark.models.claude_report.ClaudeJudge
+    display_name: "Claude Opus 5 (judge)"
+    api_key_env: ANTHROPIC_API_KEY
+    model_id: claude-opus-5
+    role: comparison_judge
+    effort: high
+    max_tokens: 64000
+    max_concurrent: 5
+
+  gemini-3.7-matched-single:
+    class: benchmark.models.gemini_c_baseline.GeminiVideoReportModel
+    display_name: "Gemini 3.7 Flash (matched single-stage prompt)"
+    api_key_env: GOOGLE_API_KEY
+    model_id: gemini-3.7-flash
+    role: e2e_condition
+    prompt_module: benchmark_e2e_matched_single_stage
+    prompt_attr: MATCHED_SINGLE_STAGE_PROMPT
+    temperature: 0.3
+    max_concurrent: 5
+
+  gemini-3.7-report-v2:
+    class: benchmark.models.gemini_report.GeminiReportModel
+    display_name: "Gemini 3.7 Flash (revised report prompt)"
+    api_key_env: GOOGLE_API_KEY
+    model_id: gemini-3.7-flash
+    role: comparison_report
+    report_prompt_module: benchmark_b_report_v2
+    temperature: 0.3
+    max_concurrent: 5
+
+  muse-c-judge:
+    class: benchmark.models.openai_c_judge.OpenAICJudge
+    display_name: "Muse Spark 1.2 (Table 5 judge)"
+    api_key_env: META_API_KEY
+    model_id: muse-spark-1.2
+    base_url: "https://api.meta.ai/v1"
+    role: e2e_judge
+    temperature: 0.3
+    use_json_format: true
+    max_tokens: 32768
+    max_concurrent: 5
+
+  deepseek-v4-pro-c-judge:
+    class: benchmark.models.openai_c_judge.OpenAICJudge
+    display_name: "DeepSeek V4 Pro (Table 5 judge)"
+    api_key_env: DEEPSEEK_API_KEY
+    model_id: deepseek-v4-pro
+    base_url: "https://api.deepseek.com"
+    role: e2e_judge
+    temperature: 0.3
+    use_json_format: true
+    max_tokens: 32768
+    max_concurrent: 16
+
+  claude-opus-5-c-judge:
+    class: benchmark.models.claude_c_judge.ClaudeCJudge
+    display_name: "Claude Opus 5 (Table 5 judge)"
+    api_key_env: ANTHROPIC_API_KEY
+    model_id: claude-opus-5
+    role: e2e_judge
+    effort: high
+    max_tokens: 64000
+    max_concurrent: 5
+
+  deepseek-v4-pro-mentions:
+    class: benchmark.models.openai_behavior_mentions.OpenAIBehaviorMentions
+    display_name: "DeepSeek V4 Pro (behavior-mention extractor)"
+    api_key_env: DEEPSEEK_API_KEY
+    model_id: deepseek-v4-pro
+    base_url: "https://api.deepseek.com"
+    role: e2e_mentions
+    temperature: 0.0
+    use_json_format: true
+    max_tokens: 8192
+    max_concurrent: 16

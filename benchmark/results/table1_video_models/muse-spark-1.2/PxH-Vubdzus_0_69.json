@@ -1,0 +1,26 @@
+{
+ "clip_id": "PxH-Vubdzus_0_69",
+ "model": "muse-spark-1.2",
+ "display_name": "Muse Spark 1.2",
+ "prompt_style": "baseline",
+ "timing_s": 19.76,
+ "token_costs": {
+  "input_tokens": 10686,
+  "output_tokens": 2093
+ },
+ "attempt_count": 1,
+ "rate_limited": false,
+ "error": null,
+ "asd_behavioral_metrics": {
+  "Absence or Avoidance of Eye Contact": false,
+  "Aggressive Behavior": false,
+  "Hyper- or Hyporeactivity to Sensory Input": true,
+  "Non-Responsiveness to Verbal Interaction": true,
+  "Non-Typical Language": true,
+  "Object Lining-Up": false,
+  "Self-Hitting or Self-Injurious Behavior": false,
+  "Self-Spinning or Spinning Objects": false,
+  "Upper Limb Stereotypies": true,
+  "Background": false
+ }
+}

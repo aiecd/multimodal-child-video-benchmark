@@ -1,0 +1,11 @@
+{
+ "clip_id": "qYeYiDxFcB0_36_41",
+ "model": "gemini-3.7-matched-single",
+ "timing_s": 82.64,
+ "token_costs": {
+  "input_tokens": 3432,
+  "output_tokens": 1012
+ },
+ "error": null,
+ "report_output": "[removed in the public release]"
+}

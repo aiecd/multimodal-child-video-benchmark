@@ -1,0 +1,26 @@
+{
+ "clip_id": "JCHtVLqJWpg_285_289",
+ "model": "qwen-3.8-max",
+ "display_name": "Qwen 3.8 Max",
+ "prompt_style": "baseline",
+ "timing_s": 70.57,
+ "token_costs": {
+  "input_tokens": 1526,
+  "output_tokens": 1457
+ },
+ "attempt_count": 1,
+ "rate_limited": false,
+ "error": null,
+ "asd_behavioral_metrics": {
+  "Absence or Avoidance of Eye Contact": true,
+  "Aggressive Behavior": false,
+  "Hyper- or Hyporeactivity to Sensory Input": false,
+  "Non-Responsiveness to Verbal Interaction": false,
+  "Non-Typical Language": false,
+  "Object Lining-Up": false,
+  "Self-Hitting or Self-Injurious Behavior": true,
+  "Self-Spinning or Spinning Objects": false,
+  "Upper Limb Stereotypies": true,
+  "Background": false
+ }
+}

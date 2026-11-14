@@ -1,0 +1,11 @@
+{
+ "clip_id": "JwaWugM2GIg_8_12",
+ "model": "gemini-3.7-obs-v3d",
+ "timing_s": 129.75,
+ "token_costs": {
+  "input_tokens": 3297,
+  "output_tokens": 702
+ },
+ "error": null,
+ "observations": "[removed in the public release]"
+}

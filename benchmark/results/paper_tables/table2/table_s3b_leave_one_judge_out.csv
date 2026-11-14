@@ -1,0 +1,5 @@
+aggregation,rank_order
+All three judges (primary),Sol > Terra > Kimi > Claude > Qwen
+Excluding Gemini 3.7 Flash,Sol > Terra > Kimi > Claude > Qwen
+Excluding Muse Spark 1.2,Sol > Terra > Claude > Kimi > Qwen
+Excluding DeepSeek V4 Pro,Sol > Terra > Kimi > Claude > Qwen

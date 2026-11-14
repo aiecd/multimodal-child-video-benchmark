@@ -1,0 +1,12 @@
+item,clips,source_videos
+Report archive (judge files),693,419
+GPT-5.6 Sol: reports judged,526,279
+GPT-5.6 Sol: every rubric item from all three judges,520,277
+GPT-5.6 Terra: reports judged,526,279
+GPT-5.6 Terra: every rubric item from all three judges,518,276
+Kimi K3: reports judged,684,413
+Kimi K3: every rubric item from all three judges,664,407
+Claude Opus 5: reports judged,692,419
+Claude Opus 5: every rubric item from all three judges,683,416
+Qwen 3.8 Max: reports judged,693,419
+Qwen 3.8 Max: every rubric item from all three judges,663,409

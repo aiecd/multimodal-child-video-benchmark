@@ -1,0 +1,11 @@
+{
+ "clip_id": "GF-FsJ6-kqQ_0_27",
+ "model": "gemini-3.7-obs-v3d",
+ "timing_s": 134.91,
+ "token_costs": {
+  "input_tokens": 5390,
+  "output_tokens": 1041
+ },
+ "error": null,
+ "observations": "[removed in the public release]"
+}

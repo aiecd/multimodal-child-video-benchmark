@@ -1,0 +1,6 @@
+{
+ "clip_id": "JwaWugM2GIg_0_4",
+ "model": "deepseek-v4-pro-mentions",
+ "condition": "two-stage-same-model",
+ "error": "ValueError: Failed to parse OpenAI C judge response as JSON: Unterminated string starting at: line 8 column 3 (char 543)"
+}

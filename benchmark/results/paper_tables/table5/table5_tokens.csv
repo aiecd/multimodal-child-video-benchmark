@@ -1,0 +1,4 @@
+condition,n_clips,clips_without_token_record,mean_input_tokens,mean_output_tokens
+two-stage-same-model,133,0,6599.804511278,2095.127819549
+two-stage-deployed,133,0,6411.864661654,2586.631578947
+single-stage-matched,133,0,4708.578947368,1035.857142857
